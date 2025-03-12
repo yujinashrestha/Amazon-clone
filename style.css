@@ -159,3 +159,11 @@ i{
 .cart-logo{
     font-size: 2rem;
 }
+
+/* panel box */
+
+.panel{
+    display: flex;
+    color: white;
+    background-color: #0f1111;
+}
