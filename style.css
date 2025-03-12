@@ -165,5 +165,55 @@ i{
 .panel{
     display: flex;
     color: white;
-    background-color: #0f1111;
+    background-color: #222f3d;
+
+    align-items: center;
+    height: 40px;
+}
+
+.panel-menu{
+    display:flex;
+    align-items: center;
+}
+
+.panel-menu div{
+    font-weight: 700;
+}
+
+.panel-options{
+    display: flex;
+    width: 70%;
+
+}
+
+.panel-options p{
+    margin-left: 15px;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+
+}
+
+.hero-image{
+    background-image: url("amazon front.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+.hero-message{
+    background-color: #E6E6E6;
+    color: black;
+    height: 40px;
+    width: 80%;
+    
+    position: absolute;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
